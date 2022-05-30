@@ -28,10 +28,15 @@ int main()
 		count++;
 		}
 	}
-	if(count==0);
+	if(count==0)
 	{
-	printf("\nItem is not present ");
+	printf("\n %dItem is not present ",key);
 	}
+	else
+	{
+	printf("\n%d is present in the array %d times ",key,count);
+	}
+
 
 	
 
